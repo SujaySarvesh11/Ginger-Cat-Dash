@@ -1,0 +1,147 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Safe Zone Container (center 66dp: 21 to 87) -->
+    
+    <!-- 1. Retro Golden Accent Ring Frame -->
+    <path
+        android:fillColor="#20F59E0B"
+        android:pathData="M54,23 A31,31 0 1,0 54,85 A31,31 0 1,0 54,23 Z" />
+    <path
+        android:strokeColor="#70F59E0B"
+        android:strokeWidth="1.5"
+        android:pathData="M54,24 A30,30 0 1,0 54,84 A30,30 0 1,0 54,24 Z" />
+
+    <!-- 2. Dark Pixel Outline Silhouette for the Ginger Cat -->
+    <!-- Tail silhouette (arched high and over to left with bushy tip) -->
+    <path
+        android:fillColor="#3A1700"
+        android:pathData="M33,36 h7 v9 h-7 z M30,42 h6 v7 h-6 z M27,47 h6 v9 h-6 z M30,56 h7 v8 h-7 z M35,62 h7 v6 h-7 z" />
+    <!-- Body & Head silhouette -->
+    <path
+        android:fillColor="#3A1700"
+        android:pathData="M38,48 h36 v22 h-36 z M56,36 h22 v18 h-22 z M58,31 h6 v8 h-6 z M70,30 h6 v9 h-6 z M39,68 h8 v10 h-8 z M49,68 h7 v10 h-7 z M62,68 h7 v10 h-7 z M71,68 h7 v10 h-7 z" />
+
+    <!-- 3. Tail - Alternating Ginger & Russet Bands + Fluffy White Tip -->
+    <!-- White bushy tip (curling high and left) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M34,37 h5 v7 h-5 z M32,41 h4 v5 h-4 z" />
+    <path
+        android:fillColor="#FAECD8"
+        android:pathData="M33,38 h2 v4 h-2 z M36,41 h3 v3 h-3 z" />
+    <!-- Russet bands -->
+    <path
+        android:fillColor="#9C3C12"
+        android:pathData="M31,44 h4 v5 h-4 z M31,54 h5 v5 h-5 z" />
+    <!-- Ginger bands -->
+    <path
+        android:fillColor="#EA7E26"
+        android:pathData="M28,49 h4 v5 h-4 z M33,59 h5 v5 h-5 z" />
+
+    <!-- 4. Main Body Fur (Warm Ginger Orange) -->
+    <path
+        android:fillColor="#EA7E26"
+        android:pathData="M40,50 h33 v18 h-33 z" />
+    <!-- Top back highlight -->
+    <path
+        android:fillColor="#F89E44"
+        android:pathData="M42,50 h28 v3 h-28 z" />
+
+    <!-- 5. Tiger Stripes on Body (Deep Russet) -->
+    <path
+        android:fillColor="#8A300E"
+        android:pathData="M44,50 h3 v11 h-3 z M51,50 h3 v12 h-3 z M58,50 h3 v10 h-3 z" />
+
+    <!-- 6. White Chest Bib & Belly Fur -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M43,65 h22 v3 h-22 z M63,54 h9 v12 h-9 z M67,56 h6 v8 h-6 z" />
+    <path
+        android:fillColor="#FAECD8"
+        android:pathData="M45,63 h18 v2 h-18 z M64,55 h3 v8 h-3 z" />
+
+    <!-- 7. Legs & White Socks (Paws) -->
+    <!-- Rear Left Leg (shaded) -->
+    <path
+        android:fillColor="#D8681C"
+        android:pathData="M40,68 h4 v6 h-4 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M39,74 h6 v3 h-6 z" />
+    <!-- Rear Right Leg -->
+    <path
+        android:fillColor="#EA7E26"
+        android:pathData="M45,68 h4 v6 h-4 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M44,74 h6 v3 h-6 z" />
+    <!-- Front Left Leg (shaded) -->
+    <path
+        android:fillColor="#D8681C"
+        android:pathData="M63,68 h4 v6 h-4 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M62,74 h6 v3 h-6 z" />
+    <!-- Front Right Leg -->
+    <path
+        android:fillColor="#EA7E26"
+        android:pathData="M69,68 h4 v6 h-4 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M68,74 h6 v3 h-6 z" />
+
+    <!-- 8. Head & Pointy Ears -->
+    <path
+        android:fillColor="#EA7E26"
+        android:pathData="M58,38 h18 v15 h-18 z" />
+    <!-- Back Ear -->
+    <path
+        android:fillColor="#EA7E26"
+        android:pathData="M59,33 h4 v7 h-4 z" />
+    <path
+        android:fillColor="#541C0A"
+        android:pathData="M59,32 h3 v3 h-3 z" />
+    <path
+        android:fillColor="#F08C8C"
+        android:pathData="M60,35 h2 v4 h-2 z" />
+    <!-- Front Ear -->
+    <path
+        android:fillColor="#EA7E26"
+        android:pathData="M71,32 h4 v7 h-4 z" />
+    <path
+        android:fillColor="#541C0A"
+        android:pathData="M72,31 h3 v3 h-3 z" />
+    <path
+        android:fillColor="#F08C8C"
+        android:pathData="M72,34 h2 v4 h-2 z" />
+
+    <!-- Forehead Tabby Stripes -->
+    <path
+        android:fillColor="#8A300E"
+        android:pathData="M63,38 h2 v6 h-2 z M67,38 h2 v6 h-2 z M71,38 h2 v5 h-2 z" />
+
+    <!-- 9. Eyes (Warm Brown with White Specular Sparkle) -->
+    <path
+        android:fillColor="#241208"
+        android:pathData="M65,44 h4 v5 h-4 z M73,44 h3 v5 h-3 z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M66,44 h2 v2 h-2 z M74,44 h2 v2 h-2 z" />
+
+    <!-- 10. Cute Muzzle, Nose, Mouth & Whiskers -->
+    <path
+        android:fillColor="#FAECD8"
+        android:pathData="M72,48 h5 v5 h-5 z" />
+    <!-- Nose -->
+    <path
+        android:fillColor="#3A1700"
+        android:pathData="M76,48 h2 v2 h-2 z" />
+    <!-- Whiskers -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M78,48 h5 v1 h-5 z M78,51 h4 v1 h-4 z" />
+</vector>

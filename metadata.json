@@ -1,0 +1,6 @@
+{
+  "name": "Ginger Dash",
+  "description": "A 2D pixel-art side-scrolling cat runner game featuring an animated ginger cat, power-ups, obstacles, and retro physics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
